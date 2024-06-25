@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import Navbar from "./components/navbar";
+import Home from "./components/home";
 import AboutMe from "./components/about_me";
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <AboutMe />
+        <Navbar />
+        <Home />
+        <AboutMe />
     </div>
   );
 }

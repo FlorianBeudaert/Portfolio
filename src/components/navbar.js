@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {Link} from 'react-scroll';
 
 const Navbar = () => {
     const [theme, setTheme] = useState('light');
@@ -13,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar bg-secondary">
+            <nav className="navbar bg-base-200 fixed w-full z-[1]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost btn-circle">
@@ -32,8 +33,13 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="0"
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Accueil</a></li>
+                            className="menu menu-sm dropdown-content bg-base-200 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li>
+                                <Link to="home" smooth={true} duration={500}>Accueil</Link>
+                            </li>
+                            <li>
+                                <Link to="aboutme" smooth={true} duration={500}>A propos</Link>
+                            </li>
                         </ul>
                     </div>
                     <p className="navbar-brand text-primary cursor-default">Portfolio | Florian Beudaert</p>
