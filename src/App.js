@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import Navbar from "./components/navbar";
 import Home from "./components/home";
-import AboutMe from "./components/about_me";
+import Skill from "./components/skill";
 
 function App() {
   useEffect(() => {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
         <Navbar />
         <Home />
-        <AboutMe />
+        <Skill />
     </div>
   );
 }
