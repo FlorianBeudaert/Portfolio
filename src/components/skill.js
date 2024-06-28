@@ -15,7 +15,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">HTML</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/html.png" alt="html"/>
+                                    <img src="./assets/images/html.png" alt="html"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -33,7 +33,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">CSS</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/css.png" alt="css"/>
+                                    <img src="./assets/images/css.png" alt="css"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -52,7 +52,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">JavaScript</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/js.png" alt="javascript"/>
+                                    <img src="./assets/images/js.png" alt="javascript"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -71,7 +71,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">React</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/react.png" alt="react"/>
+                                    <img src="./assets/images/react.png" alt="react"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -97,7 +97,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">PHP</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/php.png" alt="php"/>
+                                    <img src="./assets/images/php.png" alt="php"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -116,7 +116,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">Python</h1>
                             <div className="flex items-center gap-4">
                             <div className="w-12">
-                                    <img src="/assets/images/python.png" alt="python"/>
+                                    <img src="./assets/images/python.png" alt="python"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -136,7 +136,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">Node.js</h1>
                             <div className="flex items-center gap-4">
                             <div className="w-12">
-                                    <img src="/assets/images/nodejs.png" alt="nodejs"/>
+                                    <img src="./assets/images/nodejs.png" alt="nodejs"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -156,7 +156,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">Ruby</h1>
                             <div className="flex items-center gap-4">
                             <div className="w-12">
-                                    <img src="/assets/images/ruby.png" alt="ruby"/>
+                                    <img src="./assets/images/ruby.png" alt="ruby"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -176,7 +176,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">MySQL</h1>
                             <div className="flex items-center gap-4">
                             <div className="w-12">
-                                    <img src="/assets/images/mysql.png" alt="mysql"/>
+                                    <img src="./assets/images/mysql.png" alt="mysql"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -203,7 +203,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">Git</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/git.png" alt="git"/>
+                                    <img src="./assets/images/git.png" alt="git"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
@@ -222,7 +222,7 @@ const Skill = () => {
                             <h1 className="text-xl font-bold text-primary">Docker</h1>
                             <div className="flex items-center gap-4">
                                 <div className="w-12">
-                                    <img src="/assets/images/docker.png" alt="docker"/>
+                                    <img src="./assets/images/docker.png" alt="docker"/>
                                 </div>
                                 <div className="flex gap-1 my-auto">
                                     <div className="w-12 h-6 bg-primary transform skew-x-12"></div>
